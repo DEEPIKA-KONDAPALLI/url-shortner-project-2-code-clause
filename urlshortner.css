@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body {
+    background-color: #989E9C;
+}
+
+.main {
+    position: relative;
+    background-color: #f5f7fa;
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 5px solid #000000;
+    border-radius: 20px;
+}
+
+#longurl {
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+#shorten {
+    position: relative;
+    top: 40%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: white;
+    background-color: #000000;
+}
+
+#shorten:hover {
+    background-color: skyblue;
+}
+
+#shorturl {
+    position: relative;
+    top: 45%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+#copy {
+    position: relative;
+    top: 46%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: #000000;
+}
+
+#copy:hover {
+    background-color: skyblue;
+}
+
+.main p {
+    /* background-color: white; */
+    position: relative;
+    top: 30%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #000000;
+    text-decoration: underline;
+}
